@@ -82,3 +82,11 @@ class Car {
 mycar = new Car("Ford");
 document.getElementById("demo").innerHTML = mycar.present();
 ```
+
+
+# Tablas
+| Nombre    | Apellido    | Documento |
+|--------   |---------    | --------- |
+| Maxi      | Burgos      | 01023252  |
+| kinberling | Millers    | Sdd252563 |
+
