@@ -50,3 +50,35 @@ Underline2
 
 # Imagenes
 ![Logo GitHub](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6YbjP5vT1VgTVr0p2ChwgAtmXZiiF0JuWCKDnEYgcNDqndVkF)
+
+#
+
+# Code Snipperts
+#### Codigo en JSON
+```JSON
+// Storing data:
+myObj = {name: "John", age: 31, city: "New York"};
+myJSON = JSON.stringify(myObj);
+localStorage.setItem("testJSON", myJSON);
+
+// Retrieving data:
+text = localStorage.getItem("testJSON");
+obj = JSON.parse(text);
+document.getElementById("demo").innerHTML = obj.name;
+```
+
+
+#### Codigo en JavaScript
+```javascript
+class Car {
+  constructor(brand) {
+    this.carname = brand;
+  }
+  present() {
+    return "I have a " + this.carname;
+  }
+}
+
+mycar = new Car("Ford");
+document.getElementById("demo").innerHTML = mycar.present();
+```
