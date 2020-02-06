@@ -90,3 +90,41 @@ document.getElementById("demo").innerHTML = mycar.present();
 | Maxi      | Burgos      | 01023252  |
 | kinberling | Millers    | Sdd252563 |
 
+# 
+
+# Citas
+### Esto es un texto referente a una cita que pondremos debajo.
+> esto es una cita.
+
+Esto es otro texto que no se relaciona con la cita anterior.
+
+> esto es otra cita.
+
+# 
+
+
+# Lineas Divisoras..
+Esto es un texto que sera dividido por una linea Divisora por guiones medios, 
+
+---
+esto es otro texto dividido. por guiones medios,
+
+Esto es un texto que sera dividido por una linea Divisora por asteriscos
+
+***
+esto es otro texto dividido. under Lines
+
+___
+
+
+
+
+# Saltos de Lineas
+
+Esto es nuestro Primer Parrafo.
+
+Esto es nuestro Segundo Parrafo.
+
+Esto es nuestro Segundo Parrafo.
+
+- Lista
